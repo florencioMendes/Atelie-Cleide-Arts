@@ -39,9 +39,12 @@ function iniciarLoja() {
             containers.push({ container });
             vitrine.appendChild(container);
         }
+    
+        const productLink = `./view/pages/produto${i + 1}.html`;
+    
         container.innerHTML += `
             <section class="product">
-                <a href="./view/pages/produto1.html">
+                <a href="${productLink}">
                     <section class="product-img">
                         <img  src="${items[i].img}" alt="Imagem Macacão">
                     </section>
