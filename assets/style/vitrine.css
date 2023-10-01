@@ -15,7 +15,7 @@
     width: 100%;
     padding: 0px 5%;
     justify-content: center;
-
+    align-items: center;
 }
 #vitrine h1{
     font-size: 3rem;
@@ -23,7 +23,14 @@
     margin-bottom: 50px;
     margin-top: 30px;
 }
+#home-product{
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .container-products-flex{
+    z-index: 0;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 1rem;
