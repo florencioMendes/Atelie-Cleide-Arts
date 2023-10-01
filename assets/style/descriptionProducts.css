@@ -5,40 +5,44 @@
 }
 .imgS{
     display: flex;
-    width: 70%;
+    width: 60%;
     z-index: 0;
 }
-.carrosel{
+/* .carrosel{
     padding: 0 5% 0 0;
-}
-.img-style{
+} */
+/* .img-style{
     width: 8vw;
     height: 8vw;
     overflow: hidden;
     border-radius: 2vw;
     margin-bottom: 5px;
-}
-.carrosel img{
-    height: 8vw
-}
+} */
+/* .carrosel img{
+    height: 8vw;
+} */
 .img{
     overflow: hidden;
     border-radius: 2vw;
+    width: 70%;
+    height: 30vw;
+    background-color: blue;
 }
 .img-product{
-    height: 30vw;
+    width: 100%;
     z-index: 0;
 }
 .buy-product{
     z-index: 0;
+    width: 40%;
 }
 .buy-product h1{
     color: grey;
-    font-size: 2vw;
+    font-size: 3vw;
 }
 .buy-product h4{
-    color: rgb(78, 78, 78);
-    font-size: 1.5vw;
+    font-size: 4vw;
+    margin: 20px 0;
 }
 .buy-product button{
     font-size: 1.3vw;
@@ -47,7 +51,7 @@
     width: 100%;
     height: 4vw;
     margin-top: 2vw;
-    border-radius: 10px;
+    border-radius: 8px;
     border-width: 0px;
     background-color: #5cd15e;
 }
@@ -71,14 +75,14 @@
     .imgS{
         display: block;
     }
-    .carrosel{
+    /* .carrosel{
         display: flex;
         padding: 0 0 0 0;
         gap: 5px;
         justify-content: center;
         width: 80vw;
-    }
-    .img-style{
+    } */
+    /* .img-style{
         width: 15vw;
         height: 15vw;
         margin-bottom: 5px;
@@ -86,21 +90,27 @@
     }
     .carrosel img{
         height: 15vw;
-    }
+    } */
     .img{
-        height: 80vw;
         width: 80vw;
+        height: 80vw;
     }
     .img-product{
-        height: 80vw;
+        width: 100%;
+    }
+    .buy-product{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
     .buy-product h1{
         margin-top: 5vw;
         font-size: 5vw;
     }
     .buy-product h4{
-        margin-top: 5vw;
-        font-size: 4vw;
+        margin: 5vw 0;
+        font-size: 10vw;
     }
     .buy-product button{
         font-size: 3vw;

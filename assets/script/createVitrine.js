@@ -53,8 +53,6 @@ document.addEventListener('DOMContentLoaded', function () {
                                 <section class="product-text">
                                     <h4>${items[i].nome}</h4>
                                     <h3>R$ ${items[i].preco.toFixed(2)}</h3>
-                                    <p><strong>R$${items[i].preco.toFixed(2)}</strong> à vista com desconto ou <strong>10x</strong> de</p>
-                                    <p><strong>R$ ${(calcularParcelaSemJuros(items[i].preco, 10)).toFixed(2)}</strong> Sem juros</p>
                                 </section>
                                 <button class="btn">Ver Produto</button>
                             </a>

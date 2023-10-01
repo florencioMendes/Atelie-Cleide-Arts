@@ -17,9 +17,9 @@ function loadProductDetails() {
         .then((data) => {
             const product = data.find((item) => item.id === parseInt(productId));
             if (product) {
-                const { nome, cor, descricao, img } = product;
+                const { nome, preco, descricao, img } = product;
                 document.getElementById('product-name').textContent = nome;
-                document.getElementById('product-color').textContent = `Cor: ${cor}`;
+                document.getElementById('product-price').textContent = `R$ ${preco.toFixed(2)}`;
                 document.getElementById('product-description').textContent = descricao;
                 document.getElementById('product-image').src = img; 
                         // colocar mais conteudo abaixo dependendo do fo rusa

@@ -10,11 +10,11 @@
     },
     {
         "id": 2,
-        "nome": "Toalha de boca para batizado a toalha da marca dorlher",
+        "nome": "Toalha de boca para batizado",
         "img": "/assets/images/products/Pdt-02-01.jpeg",
         "quantidade": 0,
         "preco": 39.90,
-        "descricao": "",
+        "descricao": "Toalha da marca dorlher",
         "informacoes_adicionais": ""
     },
     {
@@ -28,20 +28,20 @@
     },
     {
         "id": 4,
-        "nome": "Toalha de banho marca dolher",
+        "nome": "Toalha de banho",
         "img": "/assets/images/products/Pdt-04-01.jpeg",
         "quantidade": 0,
         "preco": 120.00,
-        "descricao": "",
+        "descricao": " Marca dolher",
         "informacoes_adicionais": ""
     },
     {
         "id": 5,
-        "nome": "Toalha de banho e toalha de boca marca dolher",
+        "nome": "Toalha de banho e toalha de boca",
         "img": "/assets/images/products/Pdt-05-01.jpeg",
         "quantidade": 0,
         "preco": 150.00,
-        "descricao": "",
+        "descricao": " Marca dolher",
         "informacoes_adicionais": ""
     },
     {
@@ -55,11 +55,11 @@
     },
     {
         "id": 7,
-        "nome": "Fralda Cremer luxo passeio",
+        "nome": "Fralda de passeio",
         "img": "/assets/images/products/Pdt-07-01.jpeg",
         "quantidade": 0,
         "preco": 250.00,
-        "descricao": "",
+        "descricao": " Cremer luxo ",
         "informacoes_adicionais": ""
     },
     {
@@ -127,11 +127,11 @@
     },
     {
         "id": 15,
-        "nome": "Toalha de banho fralda mabber",
+        "nome": "Toalha de banho",
         "img": "/assets/images/products/Pdt-15-01.jpeg",
         "quantidade": 0,
         "preco": 80.00,
-        "descricao": "",
+        "descricao": " fralda mabber",
         "informacoes_adicionais": ""
     },
     {
@@ -154,11 +154,11 @@
     },
     {
         "id": 18,
-        "nome": "Fralda de passeio, Fralda de boca, Fralda de amamentação",
+        "nome": "Jogo de fralda",
         "img": "/assets/images/products/Pdt-18-01.jpeg",
         "quantidade": 0,
         "preco": 0,
-        "descricao": "",
+        "descricao": "Fralda de passeio, Fralda de boca, Fralda de amamentação",
         "informacoes_adicionais": ""
     },
     {
