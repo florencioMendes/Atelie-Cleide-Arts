@@ -23,6 +23,7 @@ function loadProductDetails() {
                 document.getElementById('product-description').textContent = descricao;
                 document.getElementById('informacoes-adicionais').textContent = informacoes_adicionais;
                 document.getElementById('product-image').src = img; 
+                document.getElementById('product-image-modal').src = img; 
                         // colocar mais conteudo abaixo dependendo do fo rusa
                                                                      // Trocar numero e colocar o da moca da loja 
                 const whatsappLink = "https://api.whatsapp.com/send?phone=5543996448729&text=Olá, estou interessado no produto: " + encodeURIComponent(nome);

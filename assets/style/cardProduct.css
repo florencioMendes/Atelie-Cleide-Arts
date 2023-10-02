@@ -63,32 +63,16 @@ section{
     cursor: pointer;
     transform: scale(1.05);
 }
-.left-animation {
-    animation: slideAndFadeLeftAnimation 0.3s ease-in-out;
+.animation {
+    animation: fadeAnimation 0.3s ease-in-out;
     opacity: 1;
 }
-@keyframes slideAndFadeLeftAnimation {
+@keyframes fadeAnimation {
     from {
         opacity: 0;
-        transform: translateX(-500px);
     }
     to {
         opacity: 1;
-        transform: translateX(0);
-    }
-}
-.right-animation {
-    animation: slideAndFadeRightAnimation 0.3s ease-in-out;
-    opacity: 1;
-}
-@keyframes slideAndFadeRightAnimation {
-    from {
-        opacity: 0;
-        transform: translateX(500px);
-    }
-    to {
-        opacity: 1;
-        transform: translateX(0);
     }
 }
 @media (max-width:785px) {
@@ -115,6 +99,7 @@ section{
         bottom: 10px;
         width: 80%;
         height: 5vw;
+        border-radius: 5px;
     }
 }
 

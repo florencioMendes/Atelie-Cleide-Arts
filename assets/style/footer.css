@@ -7,12 +7,25 @@
     margin-bottom: 20px;
     font-size: 20px;
 }
+.contato-content{
+    z-index: 0;
+    display: flex;
+    justify-content:space-between;
+    width: 50%;
+}
+.contato-box{
+    z-index: 0;
+    transition: transform 0.3s ease;
+}
 .contato-box a{
     text-decoration: none;
     color: black;
     z-index: 0;
     display: flex;
-    vertical-align:middle;  
+    vertical-align:middle;
+}
+.contato-box:hover{
+    transform: scale(1.02);
 }
 .contato-box p{
     z-index: 0;
@@ -25,8 +38,8 @@
     z-index: 0;
     background-color: rgb(255, 249, 250);
     width: 100%;
-    height: 350px;
-    padding: 20px 5%;
+    /* height: 350px; */
+    padding: 2% 5%;
 }
 #container-footer{
     z-index: 0;
@@ -34,7 +47,7 @@
 }
 .footer-box{
     z-index: 0;
-    padding: 0 3% 5% 3%;
+    padding: 0 3% 2% 3%;
     text-align: justify;
 }
 .footer-box h4{
@@ -42,18 +55,21 @@
 }
 .footer-box-maps{
     z-index: 0;
-    padding: 0 3% 5% 3%;
+    padding: 0 3% 2% 3%;
     text-align: center;
 }
-@media (max-width:785px) {
+@media (max-width: 1200px) {
     #contato{
-        font-size: 15px;
         height: 150px;
         margin-top: 50px;
     }
+    .contato-content{
+        display: block;
+        width: 100%;
+    }
     #sobre{
         font-size: 15px;
-        height: 800px;
+        /* height: 800px; */
     }
     #container-footer{
         display: block;

@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
     head.innerHTML += `<link rel="stylesheet" href="/assets/style/header.css">`
     header.innerHTML = `
         <nav id="navigation">
-            <a href="#" class="logo">
+            <a href="/index.html#home" class="logo">
                 Atelie Cleide Arts
                 <p>Cleide Marthos</p>
             </a>

@@ -3,10 +3,7 @@ document.addEventListener('DOMContentLoaded', function () {
     let currentPage = 0; 
     const itemsPerPage = 12; 
     const items = []; 
-    
-    function calcularParcelaSemJuros(preco, numParcelas) {
-        return preco / numParcelas;
-    }
+
     function showPage(pageId) {
         containers.forEach((pagina, index) => {
             if (index === pageId) {
@@ -18,10 +15,8 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         });
 
-        if (pageId > currentPage) {
-            containers[pageId].container.classList.add("right-animation");
-        } else if (pageId < currentPage) {
-            containers[pageId].container.classList.add("left-animation");
+        if (pageId > currentPage || pageId < currentPage) {
+            containers[pageId].container.classList.add("animation");
         }
         currentPage = pageId; 
     }

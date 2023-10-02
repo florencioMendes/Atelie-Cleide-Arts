@@ -31,6 +31,7 @@
 .img-product{
     width: 100%;
     z-index: 0;
+    cursor: pointer;
 }
 .buy-product{
     z-index: 0;
