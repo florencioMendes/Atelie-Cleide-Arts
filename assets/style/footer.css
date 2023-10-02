@@ -1,21 +1,48 @@
 #contato{
+    z-index: 0;
     width: 100%;
     height: 100px;
     padding: 0px 5%;
     margin-top: 100px;
     margin-bottom: 20px;
+    font-size: 20px;
+}
+.contato-box a{
+    text-decoration: none;
+    color: black;
+    z-index: 0;
+    display: flex;
+    vertical-align:middle;  
+}
+.contato-box p{
+    z-index: 0;
+    margin-left: 10px;
+}
+.contato-box img{
+    z-index: 0;
 }
 #sobre{
+    z-index: 0;
     background-color: rgb(255, 249, 250);
     width: 100%;
     height: 350px;
     padding: 20px 5%;
 }
 #container-footer{
+    z-index: 0;
     display: flex;
 }
 .footer-box{
-    padding: 0 5% 5% 5%;
+    z-index: 0;
+    padding: 0 3% 5% 3%;
+    text-align: justify;
+}
+.footer-box h4{
+    font-weight: 400;
+}
+.footer-box-maps{
+    z-index: 0;
+    padding: 0 3% 5% 3%;
     text-align: center;
 }
 @media (max-width:785px) {

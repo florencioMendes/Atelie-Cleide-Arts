@@ -17,14 +17,15 @@ function loadProductDetails() {
         .then((data) => {
             const product = data.find((item) => item.id === parseInt(productId));
             if (product) {
-                const { nome, preco, descricao, img } = product;
+                const { nome, preco, descricao, img, informacoes_adicionais } = product;
                 document.getElementById('product-name').textContent = nome;
                 document.getElementById('product-price').textContent = `R$ ${preco.toFixed(2)}`;
                 document.getElementById('product-description').textContent = descricao;
+                document.getElementById('informacoes-adicionais').textContent = informacoes_adicionais;
                 document.getElementById('product-image').src = img; 
                         // colocar mais conteudo abaixo dependendo do fo rusa
                                                                      // Trocar numero e colocar o da moca da loja 
-                const whatsappLink = "https://api.whatsapp.com/send?phone=554396632670&text=Olá, estou interessado no produto: " + encodeURIComponent(nome);
+                const whatsappLink = "https://api.whatsapp.com/send?phone=5543996448729&text=Olá, estou interessado no produto: " + encodeURIComponent(nome);
                 document.getElementById("contact-product").addEventListener("click", function() {
                     window.location.href = whatsappLink;
                 });
