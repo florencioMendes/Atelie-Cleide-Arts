@@ -4,7 +4,7 @@
         "nome": "Jogo De Fralda",
         "img": "/assets/images/products/Pdt-01-01.jpeg",
         "quantidade": 0,
-        "preco": 0,
+        "preco": 150.00,
         "descricao": "",
         "informacoes_adicionais": "ATENÇÃO: O preço do produto pode variar conforme os detalhes e atualizações na peça"
     },
@@ -67,7 +67,7 @@
         "nome": "Fralda de Boca",
         "img": "/assets/images/products/Pdt-08-01.jpeg",
         "quantidade": 0,
-        "preco": 0,
+        "preco": 35.00,
         "descricao": "",
         "informacoes_adicionais": "ATENÇÃO: O preço do produto pode variar conforme os detalhes e atualizações na peça"
     },
@@ -148,7 +148,7 @@
         "nome": "Jogo De Fralda",
         "img": "/assets/images/products/Pdt-18-01.jpeg",
         "quantidade": 0,
-        "preco": 0,
+        "preco": 185.00,
         "descricao": "Fralda de passeio, Fralda de boca, Fralda de amamentação",
         "informacoes_adicionais": "ATENÇÃO: O preço do produto pode variar conforme os detalhes e atualizações na peça"
     },
