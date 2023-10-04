@@ -27,9 +27,10 @@ function loadProductDetails() {
                 document.getElementById('product-image-modal').src = img; 
                         // colocar mais conteudo abaixo dependendo do fo rusa
                                                                      // Trocar numero e colocar o da moca da loja 
-                const whatsappLink = "https://api.whatsapp.com/send?phone=5543996448729&text=Olá, estou interessado no produto: " + encodeURIComponent(nome) + " Id: " + encodeURIComponent(id);
+                const whatsappLink = "https://api.whatsapp.com/send?phone=5543996448729";
+                const message = `Olá estou interessado no produto de ID: ${id}, NOME: ${nome}, NESSE LINK: ${window.location.href}`;
                 document.getElementById("contact-product").addEventListener("click", function() {
-                    window.location.href = whatsappLink;
+                    window.open(`${whatsappLink}&text=${encodeURIComponent(message)}`, "_blank");
                 });
             } else {
                 console.error('Produto não encontrado');
