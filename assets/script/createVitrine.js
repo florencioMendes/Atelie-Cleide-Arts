@@ -48,6 +48,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 <section class="product-text">
                                     <h4>${items[i].nome}</h4>
                                     <h3>R$ ${items[i].preco.toFixed(2)}</h3>
+                                    <p><b>Id: ${items[i].id}</b></p>
                                 </section>
                                 <button class="btn">Ver Produto</button>
                             </a>
