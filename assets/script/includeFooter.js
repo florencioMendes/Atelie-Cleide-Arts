@@ -45,6 +45,16 @@ document.addEventListener("DOMContentLoaded", function () {
                     </section>
                 </section> 
         </section>
+        <section class="footer-autor">
+            <article>
+                <p>Site Produzido por:</p>
+            </article>
+            <article class="footer-autor-name">
+                <a href="https://www.linkedin.com/in/florenciomendes/">Florêncio Mendes</a>
+                <a href="https://www.linkedin.com/in/mateus-butchaka-1b2a5b254/">Matheus Butchaka</a>
+            </article>
+        </section>
+        
     `;
     document.body.appendChild(footer);
 });

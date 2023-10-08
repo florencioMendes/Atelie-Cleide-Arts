@@ -58,6 +58,19 @@
     padding: 0 3% 2% 3%;
     text-align: center;
 }
+.footer-autor{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(196, 196, 196);
+}
+.footer-autor-name{
+    display: flex;
+    justify-content: space-around;
+}
+.footer-autor-name a{
+    text-decoration: none;
+    margin-left: 10px;
+}
 @media (max-width: 1200px) {
     #contato{
         height: 150px;
@@ -73,5 +86,8 @@
     }
     #container-footer{
         display: block;
+    }
+    .footer-autor{
+        font-size: 12px;
     }
 }
