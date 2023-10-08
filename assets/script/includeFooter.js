@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", function () {
             </article>
             <article class="footer-autor-name">
                 <a href="https://www.linkedin.com/in/florenciomendes/">Florêncio Mendes</a>
-                <a href="https://www.linkedin.com/in/mateus-butchaka-1b2a5b254/">Matheus Butchaka</a>
+                <a href="https://www.linkedin.com/in/mateus-butchaka-1b2a5b254/">Mateus Butchaka</a>
             </article>
         </section>
         
